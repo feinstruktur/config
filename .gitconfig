@@ -2,7 +2,7 @@
 	name = Sven A. Schmidt
 	email = sven@we7.com
 [core]
-	excludesfile = /Users/sven/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
