@@ -1,6 +1,6 @@
 [user]
 	name = Sven A. Schmidt
-	email = sven@we7.com
+	email = sas@feinstruktur.com
 [core]
 	quotepath = false
 	excludesfile = ~/.gitignore_global
