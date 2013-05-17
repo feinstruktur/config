@@ -1,6 +1,6 @@
 [user]
 	name = Sven A. Schmidt
-	email = sas@feinstruktur.com
+	email = sven@we7.com
 [core]
 	quotepath = false
 	excludesfile = ~/.gitignore_global
@@ -32,4 +32,5 @@
 	lg = !git log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
 	st = !git status -sb
 	dt = !git difftool "$@"
+	standup = log --since yesterday --oneline --author sven
 	
