@@ -1,6 +1,6 @@
 [user]
 	name = Sven A. Schmidt
-	email = sven@we7.com
+	email = sas@feinstruktur.com
 [core]
 	quotepath = false
 	excludesfile = ~/.gitignore_global
@@ -36,3 +36,5 @@
 	standup = log --since yesterday --oneline --author sven
 	tree = !git log --graph --full-history --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s" --simplify-by-decoration
 	
+[push]
+	default = simple
