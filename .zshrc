@@ -13,6 +13,10 @@ antigen-apply
 
 setopt AUTO_CD
 
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
+fi
+
 alias hist='history'
 alias .='open .'
 alias dir='ls -Al'
