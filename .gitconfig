@@ -35,6 +35,7 @@
 	dt = !git difftool "$@"
 	standup = log --since yesterday --oneline --author sven
 	tree = !git log --graph --full-history --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s" --simplify-by-decoration
-	
+  oldest-ancestor = !zsh -c 'diff --old-line-format='' --new-line-format='' <(git rev-list --first-parent "${1:-master}") <(git rev-list --first-parent "${2:-HEAD}") | head -1' -
+
 [push]
 	default = simple
