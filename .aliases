@@ -3,6 +3,3 @@ alias gup="git fetch --all"
 # merge preview for pr
 mp() { git mp we7/pr/"$*"; }
 cr() { git fetch we7; mp "$*";}
-
-alias swift=/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift
-alias macswift="/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -sdk /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk"
