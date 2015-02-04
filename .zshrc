@@ -3,7 +3,7 @@
 
 source ~/Projects/antigen/antigen.zsh
 
-antigen-lib
+antigen-use oh-my-zsh
 antigen-bundle git
 antigen-bundle osx
 antigen-bundle autojump
