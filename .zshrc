@@ -24,4 +24,9 @@ alias an='antigen'
 
 export EDITOR='mate -w'
 
+# environment variable that should not be under version control
+if [ -e .env.sh ]; then
+	source .env.sh
+fi
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
