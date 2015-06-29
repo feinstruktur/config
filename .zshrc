@@ -25,7 +25,7 @@ alias an='antigen'
 export EDITOR='mate -w'
 
 # environment variable that should not be under version control
-if [ -e .env.sh ]; then
+if [ -e ~/.env.sh ]; then
 	source .env.sh
 fi
 
