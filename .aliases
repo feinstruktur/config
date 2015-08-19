@@ -3,3 +3,5 @@ alias gup="git fetch --all"
 # merge preview for pr
 mp() { git mp we7/pr/"$*"; }
 cr() { git fetch we7; mp "$*";}
+gc_docker_cont() { docker rm $(docker ps -aq) }
+gc_docker_img() { docker rmi $(docker images | grep "<none>" | awk "{print \$3}") }
