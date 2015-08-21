@@ -5,7 +5,11 @@ Repository for unix (OSX) config files
 
 Set up:
 
-- git clone the repo
-- symlink the files into ~ (except .gitattributes)
-- ln -s .gitattributes ~/.config/git/attributes
-- or put .gitattributes in a specific git repository
+```
+mkdir ~/Projects && cd ~/Projects
+git clone git@github.com:zsh-users/antigen.git
+git clone git@github.com:feinstruktur/zsh-stuff.git
+git clone git@github.com:feinstruktur/config.git
+cd config
+./install.sh
+```
