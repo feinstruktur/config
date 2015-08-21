@@ -3,7 +3,7 @@
 	email = sas@feinstruktur.com
 [core]
 	quotepath = false
-	excludesfile = /Users/svens/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	trustctime = false
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
