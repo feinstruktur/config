@@ -29,5 +29,13 @@ if [ -e ~/.env.sh ]; then
 	source ~/.env.sh
 fi
 
+export PATH="$HOME/bin:$PATH"
+
+# docker
+eval "$(docker-machine env default 2> /dev/null)"
+
+# homebrew token
+export HOMEBREW_GITHUB_API_TOKEN=b86f0996032734e1b9d3b47a22863783abeb961d
+
 # added by Anaconda3 2.3.0 installer
 export PATH="/Users/sas/anaconda/bin:$PATH"
