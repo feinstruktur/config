@@ -34,5 +34,10 @@ export PATH="$HOME/bin:$PATH"
 # docker
 eval "$(docker-machine env default 2> /dev/null)"
 
-# added by Anaconda3 2.3.0 installer
-export PATH="/Users/sas/anaconda/bin:$PATH"
+source /usr/local/bin/virtualenvwrapper.sh
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+
+# iterm2
+source ~/.iterm2_shell_integration.zsh
+ 
