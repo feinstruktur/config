@@ -7,9 +7,10 @@ cr() { git fetch we7; mp "$*";}
 gc_docker_cont() { docker rm $(docker ps -aq) }
 gc_docker_img() { docker rmi $(docker images | grep "<none>" | awk "{print \$3}") }
 alias dm=docker-machine
+alias dc=docker-compose
 dminit() { eval "$(docker-machine env default)" }
 
-opcap() { source activate opcap }
+opcap() { workon oc }
 
 # https://github.com/herrbischoff/awesome-osx-command-line
 function mkicns() {

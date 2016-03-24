@@ -40,4 +40,3 @@ if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -
 
 # iterm2
 source ~/.iterm2_shell_integration.zsh
- 
