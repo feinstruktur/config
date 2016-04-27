@@ -12,6 +12,7 @@ antigen-bundle git
 antigen-bundle git-extras
 antigen-bundle osx
 antigen-bundle pip
+antigen-bundle zsh-users/zsh-completions src
 antigen-bundle zsh-users/zsh-syntax-highlighting
 antigen-theme sas71/zsh-stuff sas
 antigen-apply
