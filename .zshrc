@@ -4,9 +4,14 @@
 source ~/Projects/antigen/antigen.zsh
 
 antigen-use oh-my-zsh
-antigen-bundle git
-antigen-bundle osx
 antigen-bundle autojump
+antigen-bundle brew
+antigen-bundle compleat
+antigen-bundle docker
+antigen-bundle git
+antigen-bundle git-extras
+antigen-bundle osx
+antigen-bundle pip
 antigen-bundle zsh-users/zsh-syntax-highlighting
 antigen-theme sas71/zsh-stuff sas
 antigen-apply
