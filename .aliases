@@ -26,9 +26,9 @@ function dsync {
 }
 function dls {
   src="$1"
-  path="$2"
+  subdir="$2"
   if [[ ! -z $src ]]; then
-    docker run --rm -v $src:/src busybox ls -l /src$path
+    docker run --rm -v $src:/src busybox ls -l /src$subdir
   else
     echo "Usage: $0 <volume> [<path>]"
   fi
